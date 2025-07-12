@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dhruba Chowdhury | Creative Web Developer</title>
+    
+    <!-- Link to your CSS file -->
     <link rel="stylesheet" href="styles.css">
-    <!-- Google Fonts -->
+    
+    <!-- Google Fonts: Poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
     <!-- Boxicons for icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -16,218 +20,228 @@
 
     <!-- ======================= HEADER / NAVBAR ======================= -->
     <header class="header">
-        <a href="#" class="logo">DHRUBA.</a>
+        <a href="#home" class="logo">DHRUBA</a>
         
+        <!-- Hamburger Menu Icon for Mobile -->
         <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#projects">Projects</a>
-            <a href="#experience">Experience</a>
-            <a href="#education">Education</a>
+            <a href="#journey">Journey</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
         </nav>
-        <a href="#contact" class="contact-btn">Contact Me</a>
     </header>
 
-    <!-- ======================= HOME SECTION ======================= -->
-    <section class="home" id="home">
-        <div class="home-content reveal">
-            <p class="intro-text">Hello There!</p>
-            <h1>I'm <span>Dhruba Chowdhury</span>,<br>a Creative Developer & Innovator.</h1>
-            <p class="bio">Passionate about building stunning, functional applications. From full-stack web solutions and AI chatbots to mobile apps, I bring ideas to life with code.</p>
-            <div class="social-links">
-                <a href="https://github.com/Dhubadada" target="_blank" style="--i:1;"><i class='bx bxl-github'></i></a>
-                <a href="https://linkedin.com/in/dhruba-chowdhury-b0b310309" target="_blank" style="--i:2;"><i class='bx bxl-linkedin-square'></i></a>
-                <a href="mailto:2002dhruba@gmail.com" style="--i:3;"><i class='bx bxs-envelope'></i></a>
-                <a href="tel:+8801991944833" style="--i:4;"><i class='bx bxs-phone'></i></a>
-            </div>
-            <a style="margin-top: 20px;" href="#projects" class="btn">View My Work</a>
-        </div>
+    <!-- ======================= MAIN CONTENT WRAPPER ======================= -->
+    <main>
 
-        <div class="hero-image reveal">
-            <div class="profile-card">
-                <div class="card-glow"></div>
-                <!-- IMPORTANT: Replace with your photo -->
-                <img src="dhruba.jpg" alt="Dhruba Chowdhury" class="profile-img">
-            </div>
-        </div>
-    </section>
-
-    <!-- ======================= PROJECTS SECTION ======================= -->
-    <section class="projects" id="projects">
-        <h2 class="section-title reveal">Featured Projects</h2>
-        <div class="projects-grid">
-            <div class="project-card reveal">
-                <i class='bx bx-move card-icon'></i>
-                <h3>Easymove - Moving Company</h3>
-                <p>A responsive website for a moving company, designed to attract clients and streamline bookings.</p>
-                <a href="https://github.com/Dhubadada/-Easymove---Moving-Company-Website" class="project-link" target="_blank">View Code <i class='bx bx-right-arrow-alt'></i></a>
-            </div>
-            <div class="project-card reveal">
-                <i class='bx bxs-bot card-icon'></i>
-                <h3>EduAI Chatbot</h3>
-                <p>An intelligent chatbot designed to assist students with educational queries and resources.</p>
-                <a href="https://github.com/Dhubadada/eduai-chatbot" class="project-link" target="_blank">View Code <i class='bx bx-right-arrow-alt'></i></a>
-            </div>
-            <div class="project-card reveal">
-                <i class='bx bxs-leaf card-icon'></i>
-                <h3>GreenGrow Nursery</h3>
-                <p>A full-stack e-commerce platform for a plant nursery with product listings and user accounts.</p>
-                <a href="https://github.com/Dhubadada/GreenGrow-Nursery" class="project-link" target="_blank">View Code <i class='bx bx-right-arrow-alt'></i></a>
-            </div>
-            <div class="project-card reveal">
-                <i class='bx bxs-first-aid card-icon'></i>
-                <h3>Healthcare Assistant</h3>
-                <p>A web application to assist users with healthcare information and symptom checking.</p>
-                <a href="https://github.com/Dhubadada/Healthcare-Assistant" class="project-link" target="_blank">View Code <i class='bx bx-right-arrow-alt'></i></a>
-            </div>
-        </div>
-        <div class="more-projects-btn reveal">
-            <a href="https://github.com/Dhubadada?tab=repositories" class="btn" target="_blank">More Projects on GitHub</a>
-        </div>
-    </section>
-    
-    <!-- ======================= EXPERIENCE SECTION ======================= -->
-    <section class="experience" id="experience">
-        <h2 class="section-title reveal">Experience</h2>
-        <div class="experience-container">
-            <div class="experience-item reveal">
-                <div class="experience-header">
-                    <h3>Executive Board Member</h3>
-                    <p>2024 - Present</p>
+        <!-- ======================= HOME SECTION ======================= -->
+        <section class="home" id="home">
+            <div class="home-content reveal">
+                <h1>Hi, I'm <span>Dhruba Chowdhury</span></h1>
+                <h3 class="profession-text">Creative Web Developer & Innovator</h3>
+                <p class="bio">I build stunning, functional, and user-centric digital experiences. From full-stack web solutions and AI chatbots to mobile apps, I turn complex problems into elegant, modern designs.</p>
+                <div class="social-links">
+                    <a href="https://github.com/Dhubadada" target="_blank" style="--i:1;" aria-label="GitHub Profile"><i class='bx bxl-github'></i></a>
+                    <a href="https://linkedin.com/in/dhruba-chowdhury-b0b310309" target="_blank" style="--i:2;" aria-label="LinkedIn Profile"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="mailto:2002dhruba@gmail.com" style="--i:3;" aria-label="Send Email"><i class='bx bxs-envelope'></i></a>
+                    <a href="tel:+8801991944833" style="--i:4;" aria-label="Call Me"><i class='bx bxs-phone-call'></i></a>
                 </div>
-                <h4>East Delta University Career Club</h4>
-                <p>Organized career sessions with industry leaders and secured funding through sponsorships and university support.</p>
+                <a href="#projects" class="btn">View My Work</a>
             </div>
-            <div class="experience-item reveal">
-                <div class="experience-header">
-                    <h3>Freelance Web Developer</h3>
-                    <p>2023 - Present</p>
-                </div>
-                <h4>Self-Employed</h4>
-                <p>Designed and developed custom websites for students and small projects, focusing on tailored solutions and modern design.</p>
-            </div>
-        </div>
-    </section>
 
-    <!-- ======================= EDUCATION & ACHIEVEMENTS SECTION ======================= -->
-    <!-- ======================= EDUCATION & ACHIEVEMENTS SECTION ======================= -->
-    <section class="education" id="education">
-         <h2 class="section-title reveal">My Journey</h2>
-         <div class="edu-achieve-container">
-            
-            <!-- Education Timeline Column -->
-            <div class="education-column">
-                <h3 class="column-title reveal">Educational Qualification</h3>
-                <div class="timeline">
-                    <div class="timeline-item reveal">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <h4>B.Sc. in Computer Science & Engineering</h4>
-                            <p>East Delta University, Chattogram</p>
-                            <span>2022 - Present | CGPA: 3.60/4.00</span>
+            <div class="hero-image reveal">
+                <div class="image-wrapper">
+                     <!-- IMPORTANT: Make sure your image file is named "profile-photo.jpg" and is in the same folder -->
+                    <img src="dhruba.jpg" alt="A professional headshot of Dhruba Chowdhury">
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================= PROJECTS SECTION ======================= -->
+        <section class="projects" id="projects">
+            <h2 class="section-title reveal">Featured <span>Projects</span></h2>
+            <div class="projects-grid">
+                <div class="project-card reveal">
+                    <i class='bx bx-move card-icon'></i>
+                    <h3>Easymove - Moving Company</h3>
+                    <p>A responsive website for a moving company, designed to attract clients and streamline bookings.</p>
+                    <a href="https://github.com/Dhubadada/-Easymove---Moving-Company-Website" class="project-link" target="_blank">View Code <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <div class="project-card reveal">
+                    <i class='bx bxs-bot card-icon'></i>
+                    <h3>EduAI Chatbot</h3>
+                    <p>An intelligent chatbot designed to assist students with educational queries and resources.</p>
+                    <a href="https://github.com/Dhubadada/eduai-chatbot" class="project-link" target="_blank">View Code <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <div class="project-card reveal">
+                    <i class='bx bxs-leaf card-icon'></i>
+                    <h3>GreenGrow Nursery</h3>
+                    <p>A full-stack e-commerce platform for a plant nursery with product listings and user accounts.</p>
+                    <a href="https://github.com/Dhubadada/GreenGrow-Nursery" class="project-link" target="_blank">View Code <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <div class="project-card reveal">
+                    <i class='bx bxs-first-aid card-icon'></i>
+                    <h3>Healthcare Assistant</h3>
+                    <p>A web application to assist users with healthcare information and symptom checking.</p>
+                    <a href="https://github.com/Dhubadada/Healthcare-Assistant" class="project-link" target="_blank">View Code <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+            </div>
+            <div class="more-projects-btn reveal">
+                <a href="https://github.com/Dhubadada?tab=repositories" class="btn" target="_blank">More Projects on GitHub</a>
+            </div>
+        </section>
+        
+        <!-- ======================= JOURNEY (EXPERIENCE & EDUCATION) ======================= -->
+        <section class="journey" id="journey">
+            <h2 class="section-title reveal">My <span>Journey</span></h2>
+            <div class="journey-container">
+
+                <!-- Experience Column -->
+                <div class="journey-column">
+                    <h3 class="column-title reveal">Experience</h3>
+                    <div class="timeline">
+                        <div class="timeline-item reveal">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">2024 - Present</div>
+                                <h4>Executive Board Member</h4>
+                                <h5>East Delta University Career Club</h5>
+                                <p>Organizing career sessions with industry leaders and securing funding through sponsorships and university support.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="timeline-item reveal">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <h4>Higher Secondary Certificate (HSC)</h4>
-                            <p>Prabartak School & College, Chattogram</p>
-                            <span>Completed: 2020</span>
-                        </div>
-                    </div>
-                    <div class="timeline-item reveal">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <h4>Secondary School Certificate (SSC)</h4>
-                            <p>Hathazari Govt. Parbati Model High School</p>
-                            <span>Completed: 2018</span>
+                        <div class="timeline-item reveal">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">2023 - Present</div>
+                                <h4>Freelance Web Developer</h4>
+                                <h5>Self-Employed</h5>
+                                <p>Designing and developing custom websites for students and small projects, focusing on tailored solutions and modern design.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Achievements Grid Column -->
-            <div class="achievements-column">
-                <h3 class="column-title reveal">Awards & Certificates</h3>
-                <div class="achievements-grid">
-                    <div class="achievement-card reveal">
-                        <i class='bx bxs-star card-icon'></i>
-                        <p>Outstanding Student Award (2025)</p>
-                    </div>
-                    <div class="achievement-card reveal">
-                        <i class='bx bxs-award card-icon'></i>
-                        <p>Executive Member Certificate (2025)</p>
-                    </div>
-                    <div class="achievement-card reveal">
-                        <i class='bx bxs-trophy card-icon'></i>
-                        <p>2nd Runner-Up – Chittagong ICT Fair</p>
-                    </div>
-                    <div class="achievement-card reveal">
-                        <i class='bx bx-atom card-icon'></i>
-                        <p>2nd Place – Science Fair 2018, BCSIR</p>
+                <!-- Education Column -->
+                <div class="journey-column" id="education">
+                    <h3 class="column-title reveal">Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item reveal">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">2022 - Present</div>
+                                <h4>B.Sc. in Computer Science & Engineering</h4>
+                                <h5>East Delta University, Chattogram</h5>
+                                <p>Current CGPA: 3.60 / 4.00</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item reveal">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                               <div class="timeline-date">Completed: 2020</div>
+                               <h4>Higher Secondary Certificate (HSC)</h4>
+                               <h5>Prabartak School & College, Chattogram</h5>
+                            </div>
+                        </div>
+                        <div class="timeline-item reveal">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                               <div class="timeline-date">Completed: 2018</div>
+                               <h4>Secondary School Certificate (SSC)</h4>
+                               <h5>Hathazari Govt. Parbati Model High School</h5>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-         </div>
-    </section>
- <!-- ======================= CONTACT SECTION ======================= -->
-    <section class="contact" id="contact">
-        <h2 class="section-title reveal">Let's Get In Touch</h2>
-        <div class="contact-container reveal">
-            <div class="contact-info">
-                <h3>Let's Connect</h3>
-                <p>Have a project in mind or just want to say hello? My inbox is always open. I'll get back to you as soon as possible!</p>
-                <div class="info-item">
-                    <i class='bx bxs-envelope'></i>
-                    <p>2002dhruba@gmail.com</p>
+            </div>
+        </section>
+
+        <!-- ======================= SKILLS & ACHIEVEMENTS SECTION ======================= -->
+        <section class="skills" id="skills">
+            <h2 class="section-title reveal">Skills & <span>Achievements</span></h2>
+            <div class="skills-container">
+                <div class="skills-column reveal">
+                    <h3 class="column-title">Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item"><i class='bx bxl-html5'></i> HTML5</div>
+                        <div class="skill-item"><i class='bx bxl-css3'></i> CSS3</div>
+                        <div class="skill-item"><i class='bx bxl-javascript'></i> JavaScript</div>
+                        <div class="skill-item"><i class='bx bxl-react'></i> React</div>
+                        <div class="skill-item"><i class='bx bxl-nodejs'></i> Node.js</div>
+                        <div class="skill-item"><i class='bx bxs-data'></i> Databases (SQL/NoSQL)</div>
+                        <div class="skill-item"><i class='bx bxl-python'></i> Python</div>
+                        <div class="skill-item"><i class='bx bxl-git'></i> Git & GitHub</div>
+                        <div class="skill-item"><i class='bx bxs-bot' ></i> AI/Chatbot Dev</div>
+                        <div class="skill-item"><i class='bx bx-mobile-alt'></i> Responsive Design</div>
+                    </div>
                 </div>
-                <div class="info-item">
-                    <i class='bx bxs-phone'></i>
-                    <p>+880 1991-944833</p>
-                </div>
-                <div class="info-item">
-                    <i class='bx bxs-map'></i>
-                    <p>Chittagong, Bangladesh</p>
+                <div class="achievements-column reveal">
+                    <h3 class="column-title">Awards & Certificates</h3>
+                    <div class="achievements-grid">
+                        <div class="achievement-item"><i class='bx bxs-star'></i> Outstanding Student Award (2025)</div>
+                        <div class="achievement-item"><i class='bx bxs-award'></i> Executive Member Certificate (2025)</div>
+                        <div class="achievement-item"><i class='bx bxs-trophy'></i> 2nd Runner-Up – Chittagong ICT Fair</div>
+                        <div class="achievement-item"><i class='bx bx-atom'></i> 2nd Place – Science Fair 2018, BCSIR</div>
+                    </div>
                 </div>
             </div>
-            <form action="#" class="contact-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <input type="text" placeholder="Subject" required>
-                <textarea cols="30" rows="10" placeholder="Your Message" required></textarea>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
-        </div>
-    </section>
-    
+        </section>
+
+        <!-- ======================= CONTACT SECTION ======================= -->
+        <section class="contact" id="contact">
+            <h2 class="section-title reveal">Contact <span>Me</span></h2>
+            <div class="contact-container reveal">
+                <div class="contact-info">
+                    <h3>Let's Build Something Great Together</h3>
+                    <p>Have a project in mind, a question, or just want to say hello? My inbox is always open. I'll get back to you promptly!</p>
+                </div>
+                <!-- Add your form action URL or integrate with a service like Formspree -->
+                <form action="#" method="POST" class="contact-form">
+                    <div class="input-box">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <textarea name="message" cols="30" rows="8" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
     <!-- ======================= FOOTER ======================= -->
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-about">
-                <a href="#" class="logo">DHRUBA.</a>
+                <a href="#" class="logo">DHRUBA<span>.</span></a>
                 <p>A creative developer passionate about building beautiful and functional digital experiences.</p>
             </div>
             <div class="footer-links">
                 <h4>Quick Links</h4>
                 <ul>
-                    <li><a href="#home">Home</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#journey">Journey</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <div class="footer-social">
                 <h4>Follow Me</h4>
                 <div class="social-links">
-                    <a href="https://github.com/Dhubadada" target="_blank"><i class='bx bxl-github'></i></a>
-                    <a href="https://linkedin.com/in/dhruba-chowdhury-b0b310309" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://github.com/Dhubadada" target="_blank" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                    <a href="https://linkedin.com/in/dhruba-chowdhury-b0b310309" target="_blank" aria-label="LinkedIn"><i class='bx bxl-linkedin-square'></i></a>
                 </div>
             </div>
         </div>
         <div class="footer-bottom">
             <p>Stop waiting for ‘someday’ and start building it today.</p>
+            <div class="footer-icon-top">
+                <a href="#home" aria-label="Scroll to top"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
         </div>
     </footer>
 
