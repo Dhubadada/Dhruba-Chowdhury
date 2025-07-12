@@ -19,6 +19,36 @@ document.addEventListener('DOMContentLoaded', () => {
         mouseX = e.clientX;
         mouseY = e.clientY;
     });
+    // =========================================================================
+// 6. INTERACTIVE HERO IMAGE GRADIENT & TILT
+// =========================================================================
+const heroImageWrapper = document.querySelector('.home .image-wrapper');
+if (heroImageWrapper) {
+    document.body.addEventListener('mousemove', (e) => {
+        const { clientX, clientY } = e;
+        const { innerWidth, innerHeight } = window;
+        
+        // Calculate rotation based on mouse position
+        const rotateX = (clientY / innerHeight - 0.5) * -30; // Tilt up/down
+        const rotateY = (clientX / innerWidth - 0.5) * 30;  // Tilt left/right
+
+        // Calculate gradient angle based on mouse position
+        const angle = Math.atan2(clientY - (innerHeight / 2), clientX - (innerWidth / 2)) * (180 / Math.PI);
+
+        // Apply the styles
+        requestAnimationFrame(() => {
+            heroImageWrapper.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+            heroImageWrapper.style.setProperty('--gradient-angle', `${angle + 90}deg`);
+        });
+    });
+    
+    // Reset on mouse leave
+    document.body.addEventListener('mouseleave', () => {
+        requestAnimationFrame(() => {
+             heroImageWrapper.style.transform = 'rotateX(0deg) rotateY(0deg)';
+        });
+    });
+}
 
     function animateCursor() {
         // Dot movement (immediate)
